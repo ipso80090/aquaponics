@@ -4,15 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="">
     <title>Aquaponics</title>
 </head>
 
 <body>
-    <h1>Présentation</h1>
+    <nav class="navbar navbar-expand-md navbar-dark bg-success" aria-label="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Aquaponics</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#home" aria-controls="home" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
+            <div class="collapse navbar-collapse" id="home">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="event.html">Nous trouver</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="scroller" data-bs-toggle="dropdown" aria-expanded="false">Produire</a>
+                        <ul class="dropdown-menu" aria-labelledby="scroller">
+                            <li><a class="dropdown-item" href="#">Installations</a></li>
+                            <li><a class="dropdown-item" href="#">Quels légumes?</a></li>
+                            <li><a class="dropdown-item" href="#">Quels poissons?</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form>
+                    <input class="form-control" type="text" placeholder="Rechercher" aria-label="Search">
+                </form>
+            </div>
+        </div>
+    </nav>
     <script src="bootstrap/dist/js/bootstrap.js"></script>
 </body>
 
